@@ -1,0 +1,87 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Group Styling */
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#check-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#check-btn:hover {
+    background-color: #218838;
+}
+
+#clear-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#clear-btn:hover {
+    background-color: #c82333;
+}
+
+/* Results Div Styling */
+#results-div {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #333;
+    margin-top: 10px;
+}
