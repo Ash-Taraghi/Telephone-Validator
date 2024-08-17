@@ -43,7 +43,7 @@ To run this project locally:
 
 ## Usage
 
-1. **Open the Application**: Launch `index.html` in your browser or go to this link: .
+1. **Open the Application**: Launch `index.html` in your browser or go to this link: https://ash-taraghi.github.io/Telephone-Validator/ .
 2. **Enter a Phone Number**: Type a US phone number in the input field.
 3. **Validate the Number**: Click the "Validate" button to check if the number is valid.
 4. **Clear the Input**: Click the "Clear" button to reset the input and result display.
